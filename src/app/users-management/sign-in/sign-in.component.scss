@@ -1,0 +1,15 @@
+.sign-in {
+    position: relative;
+    inset: 0;
+    height: 100dvh;
+    background-image: url("/assets/images/bg-signin.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
