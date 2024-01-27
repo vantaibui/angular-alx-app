@@ -3,4 +3,4 @@ enum ROLE {
     USER = 'user',
 }
 
-export { ROLE }
+export { ROLE };

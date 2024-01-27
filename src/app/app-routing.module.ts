@@ -11,6 +11,15 @@ const routes: Routes = [
                 (m) => m.HospitalManagementModule,
             ),
     },
+    // Detox course
+    {
+        title: 'Detox Course',
+        path: 'detox-course',
+        loadChildren: () =>
+            import('./detox-course-management/detox-course-management.module').then(
+                (m) => m.DetoxCourseManagementModule,
+            ),
+    },
     // User Management
     {
         title: 'Sign In',

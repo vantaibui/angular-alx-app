@@ -5,7 +5,6 @@ import { HospitalManagementRoutingModule } from './hospital-management-routing.m
 import { HospitalManagementComponent } from './hospital-management.component';
 import { HospitalService } from './service/hospital.service';
 
-
 @NgModule({
     declarations: [HospitalManagementComponent],
     imports: [CommonModule, HospitalManagementRoutingModule],
